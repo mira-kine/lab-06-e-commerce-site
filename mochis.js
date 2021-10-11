@@ -1,4 +1,4 @@
-const mochis = [
+export const mochis = [
     {
         id: '1',
         name: 'calm mochi',

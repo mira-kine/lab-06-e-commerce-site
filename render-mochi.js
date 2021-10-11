@@ -9,5 +9,5 @@ export function renderMochi(mochi){
     img.src = mochi.img;
 
     mochiItem.append(mochiHeader, img);
-    return mochiItem
+    return mochiItem;
 }
