@@ -15,7 +15,7 @@ export function renderMochi(mochi){
     mochiMood.textContent = `Mood: ${mochi.mood}`;
 
     const mochiPrice = document.createElement('p');
-    mochiPrice.textContent = `Price: ${mochi.price}`;
+    mochiPrice.textContent = `Price: $${mochi.price}`;
 
     const addProduct = document.createElement('button');
     addProduct.textContent = "add";
