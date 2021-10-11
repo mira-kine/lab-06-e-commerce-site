@@ -1,3 +1,10 @@
+* {
+    --color-1: #C8E0F4;
+    --color-2: #C98686;
+    --color-3: #E7CFBC;
+    --color-4: #FFF4EC;
+
+}
 header img {
     height: 200px;
     width: auto;
@@ -11,7 +18,7 @@ body {
 
 .mochi-item img {
     border-radius: 50%;
-    border: 8px solid #C8E0F4;
+    border: 8px solid var(--color-1);
     height: 300px;
     width: 300px;
 }
@@ -19,7 +26,19 @@ body {
 #product-list {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
+}
+
+.mochi-item {
+    border: 6px solid var(--color-2);
+    border-radius: 15%;
+    background-color: var(--color-4);
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
 }
