@@ -41,6 +41,6 @@ export const mochis = [
         flavor: 'matcha',
         mood: 'patient',
         img: './assets/patience-mochi.jpg',
-        price: 1.5
+        price: 3.5
     }
 ];
