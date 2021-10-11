@@ -20,8 +20,7 @@ export function renderMochi(mochi){
     const addProduct = document.createElement('button');
     addProduct.textContent = "add";
 
-    const nextItem = document.createElement('hr');
-
-    mochiItem.append(mochiHeader, img, addProduct, mochiFlavor, mochiMood, mochiPrice, nextItem);
+    mochiItem.append(mochiHeader, img, addProduct, mochiFlavor, mochiMood, mochiPrice);
+    
     return mochiItem;
 }
