@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'A Little Sunshine';
+    src: url(../assets/A\ little\ sunshine.ttf);
+}
+
 * {
     --color-1: #C8E0F4;
     --color-2: #C98686;
@@ -8,6 +13,12 @@
 header img {
     height: 200px;
     width: auto;
+}
+
+h1, h2 {
+    font-family:
+    font-size: 2.5rem;
+    text-align: center;
 }
 
 body {
@@ -41,4 +52,9 @@ body {
     justify-content: space-between;
     margin: 20px;
     padding: 10px;
+}
+
+p {
+    font-family: 'A Little Sunshine', cursive;
+    font-size: 1.5rem;
 }
