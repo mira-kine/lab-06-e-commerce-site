@@ -22,7 +22,7 @@ export const mochis = [
         name: 'energetic mochi',
         flavor: 'mango',
         mood: 'energetic',
-        img: './assets/energetic-mochi.jpg',
+        img: './assets/energy-mochi.jpg',
         price: 1.5
     },
 
@@ -40,7 +40,7 @@ export const mochis = [
         name: 'patient mochi',
         flavor: 'matcha',
         mood: 'patient',
-        img: './assets/patient-mochi.jpg',
+        img: './assets/patience-mochi.jpg',
         price: 1.5
     }
 ];

@@ -8,6 +8,18 @@ export function renderMochi(mochi){
     const img = document.createElement('img');
     img.src = mochi.img;
 
-    mochiItem.append(mochiHeader, img);
+    const mochiFlavor = document.createElement('p');
+    mochiFlavor.textContent = `Flavor: ${mochi.flavor}`;
+
+    const mochiMood = document.createElement('p');
+    mochiMood.textContent = `Mood: ${mochi.mood}`;
+
+    const mochiPrice = document.createElement('p');
+    mochiPrice.textContent = `Price: ${mochi.price}`;
+
+    const addProduct = document.createElement('button');
+    addProduct.textContent = "add";
+
+    mochiItem.append(mochiHeader, img, addProduct, mochiFlavor, mochiMood, mochiPrice);
     return mochiItem;
 }
