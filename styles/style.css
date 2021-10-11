@@ -6,12 +6,11 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    background-image: url('../assets/');
 }
 
 .mochi-item img {
     border-radius: 50%;
-    border: 3px solid #C8E0F4;
+    border: 8px solid #C8E0F4;
     height: 300px;
     width: 300px;
 }
@@ -21,4 +20,8 @@ body {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.mochi-class p {
+    border: 3px solid black;
 }
