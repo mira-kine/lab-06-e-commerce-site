@@ -2,6 +2,13 @@
 
 ## Making a plan
 
+### HTML
+
+### States
+
+### Event Listeners
+    * with click of button, loop is played to render HTML elements
+
 (bolded steps are mandatory, unbolded are for more advanced projects)
 
 1) **Make a drawing of your app. Simple "wireframes"**
